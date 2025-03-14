@@ -1,0 +1,6 @@
+{
+  "enableToc": {
+    "type": "bool",
+    "label": "見出し一覧の表示"
+  }
+}
