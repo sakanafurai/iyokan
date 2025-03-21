@@ -1,8 +1,8 @@
 :root {
   --main-color: #e0a24a;
-  --title-color: #fff;
   --text-color: #454535;
   --text-color-sub: #606059;
+  --white: #fff;
 }
 
 /*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
@@ -110,7 +110,7 @@ header .title-logo img {
   display: block;
   position: relative;
   text-align: center;
-  color: var(--title-color);
+  color: var(--white);
   margin: 0 auto;
   background: none;
   border: 0;
@@ -182,11 +182,11 @@ header .title-logo img {
 
 .nav-menu a {
   display: block;
-  color: var(--title-color);
+  color: var(--white);
   font-weight: 700;
   text-decoration: none;
   width: calc(50% - 1rem);
-  border-bottom: 1px solid var(--title-color);
+  border-bottom: 1px solid var(--white);
   padding:  1.5rem 2rem 1rem 0.2rem;
 }
 
@@ -213,20 +213,20 @@ header .title-logo img {
 
 main {
   width: 100vw;
-  background: var(--title-color);
+  background: var(--white);
   display: flex;
   flex-direction: row;
 }
 
 div.sidebar {
   width: 30vw;
-  background: var(--title-color);
+  background: var(--white);
   color: var(--text-color-sub);
 }
 
 article {
   width: 70vw;
-  background: var(--title-color);
+  background: var(--white);
   padding: 7rem 7rem 5rem 10rem;
 }
 
@@ -462,12 +462,12 @@ footer {
   }
 
   .copyright {
-    color: var(--title-color);
+    color: var(--white);
     margin-left: 1rem;
   }
 
   .copyright a {
-  color: var(--title-color);
+  color: var(--white);
   }
 
   @media screen and (max-width: 767px) {
