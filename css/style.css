@@ -101,7 +101,7 @@ header .title-logo img {
   }
 }
 
-/* Mobile navbar */
+/* モバイル用ナビバー */
 .navbar {
   position: relative;
 }
@@ -117,6 +117,7 @@ header .title-logo img {
   cursor: pointer;
 }
 
+/* ハンバーガーメニュー */
 .hamburger-menu {
   width: 30px;
   height: 22px;
@@ -161,6 +162,7 @@ header .title-logo img {
   transform: translateY(-50%) rotate(-45deg);
 }
 
+/* メニューの内容 */
 .nav-menu {
   display: none;
   flex-direction: row;
@@ -199,6 +201,7 @@ header .title-logo img {
   margin-left: 1rem;
 }
 
+/* モバイルメニューのフェードイン効果 */
 @keyframes fadeIn {
   0% {
     top: 45%;
@@ -211,6 +214,7 @@ header .title-logo img {
   }
 }
 
+/* 本文レイアウト */
 main {
   width: 100vw;
   background: var(--white);
@@ -233,6 +237,8 @@ article {
 .content, .page-title {
   max-width: 80rem;
 }
+
+/* モバイル用レイアウト */
 @media screen and (max-width: 767px) {
   .sidebar {
     display: none;
@@ -244,12 +250,14 @@ article {
   }
 }
 
+/* タブレットで本文のpaddingを狭くする */
 @media screen and (min-width: 768px) and (max-width: 1000px) {
   article {
     padding: 3rem 3rem 5rem 3rem;
   }
 }
 
+/* PC用サイドバー */
 .sidebar {
   .title-logo {
     width: fit-content;
@@ -319,6 +327,7 @@ article {
   }
 }
 
+/* 本文 */
 article {
   h1.page-title, h1.category, h1.welcome {
     font-size: 2.8rem;
@@ -363,11 +372,13 @@ article {
     margin-bottom: 0;
   }
 
+  /* もとの原稿の---罫線は非表示 */
   hr {
     margin: 30px 60px;
     display: none;
   }
 
+  /* 日付は非表示 */
   .page-data {
     display: none;
   }
@@ -439,6 +450,7 @@ ul.pagination li {
   margin-bottom: 0.3rem;
 }
 
+/* フッター */
 footer {
   width: 100vw;
   background: inherit;
@@ -488,6 +500,7 @@ footer {
   }
 
   @media screen and (min-width: 768px) {
+    /* モバイルのみクレジットの日付を表示 */
     .copyright:first-child {
       display: none;
     }
