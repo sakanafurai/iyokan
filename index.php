@@ -15,8 +15,9 @@
 </head>
 <body>
 
-<!-- Load Bludit Plugins: Site Body Begin -->
-<?php Theme::plugins('siteBodyBegin'); ?>
+  <!-- Load Bludit Plugins: Site Body Begin -->
+  <?php Theme::plugins('siteBodyBegin'); ?>
+
   <!-- Header -->
   <?php include(THEME_DIR_PHP.'header.php'); ?>
 
