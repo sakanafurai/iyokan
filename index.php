@@ -7,6 +7,8 @@
   <?php echo Theme::metaTags('title'); ?>
   <?php echo Theme::metaTags('description'); ?>
   <?php echo Theme::favicon('img/favicon.png'); ?>
+  <link rel="preconnect" href="https://fonts.bunny.net">
+  <link href="https://fonts.bunny.net/css?family=lato:400,700" rel="stylesheet" />
   <?php echo Theme::css('css/style.css'); ?>
   <!-- Load Bludit Plugins: Site head -->
   <?php Theme::plugins('siteHead'); ?>

@@ -60,7 +60,7 @@ html {
 body {
   width: 100vw;
   min-height: 100vh;
-  font-family: Avenir, Lato, Helvetica, Arial, Roboto, YuGothic, "Yu Gothic", "Hiragino Kaku Gothic ProN", "Noto Sans JP", メイリオ, Meiryo, "ＭＳ ゴシック", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Lato, "Noto Sans JP", "Source Han Sans JP", 源ノ角ゴシック, YuGothic, "Yu Gothic", "ＭＳ ゴシック", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 400;
   font-size: 1.7rem;
   background: var(--main-color);
